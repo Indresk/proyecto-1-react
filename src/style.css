@@ -30,7 +30,7 @@ button>p{color:inherit}img{height:auto;vertical-align:middle;width:100%}svg{heig
     position: relative;
 }
 
-.navItems>li>a::after{
+.navItems>li>a::before{
     content: '';
     position: absolute;
     background: linear-gradient(to right, var(--primaryColor), var(--mutedColor)) ;
@@ -41,7 +41,7 @@ button>p{color:inherit}img{height:auto;vertical-align:middle;width:100%}svg{heig
     transition: width ease 0.2s;
 }
 
-.navItems>li>a:hover::after{
+.navItems>li>a:hover::before{
     width: 100%;
 }
 

@@ -1,4 +1,4 @@
-import CarWidget from "./components/CartWidget"
+import CarWidget from "./CartWidget"
 
 function NavBar({pages}){
     const pageHeadline = {
